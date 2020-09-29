@@ -1,0 +1,28 @@
+<BEGIN TEMPLATES>
+
+NO_CORPUS -> <DET> <ADJ> <NOUN> <VERB> <DET> <NOUN>.
+
+YES_CORPUS -> <DET> <ADJ> <MONSTERS> <VERB> <NOUN_CORPUS>.
+
+MY_CORPUS -> <ADJ> <LOVE_LANG> in <BIBLE> <VERB> and wanders through <ADJ> <CARLETON_BUILDING> (makes use of: [bible_books.txt], [love_languages.txt], [carleton_buildings.txt]. 
+
+HOPEFULLY_POETIC -> Not every <LOVE_LANG> <VERB> <NOUN>.
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+DET -> the,a,every,an,not every,some
+NOUN -> monkey,ginger,boy,girl,giraffe,elephant,book,phone,bottle,pot,pans,food
+VERB -> walks,talks,runs,screams,sings,$verbs_present.txt
+ADJ -> cool,warm,dry,sliding,$adjectives.txt
+PREP -> to,under,with,over,aside,next to
+MONSTERS -> $monsters.txt,$pokemon.txt
+NOUN_CORPUS -> $vegetables.txt,$settings.txt
+BIBLE -> $bible_books.txt
+LOVE_LANG -> $love_languages.txt
+CARLETON_BUILDING -> $carleton_buildings.txt
+
+
+<END SLOTS>

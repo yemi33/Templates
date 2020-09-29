@@ -1,0 +1,30 @@
+<BEGIN TEMPLATES>
+
+QUATRAIN -><DET> <ADJ> <NOUN> <VERB1>\n<DET> <ADJ> <NOUN> <VERB2>\n<DET> <ADJ> <NOUN> <VERB1>\n<DET> <ADJ> <NOUN> <VERB2>.
+
+LIMERICK ->There once was a person named <NAME>.\nEveryday they worked at the <PLACE>.\nThey <EMOTION> their work\nand all its perks.\nTo make the time pass they ate <BERRY>.
+
+HAIKU -><LINE1>\n<UNIT1> <UNIT2> <UNIT3>\n<LINE3>
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+DET -> the,a,every,an,not every,some
+NOUN -> moon,sun,doctor,planet,raindrop,clown,man,woman,person,city
+VERB1 -> aligns,assigns,whines,times,shines,declines,pines,dines,chimes,defines
+VERB2 -> walking,talking,blocking,shocking,flocking,locking,stalking,rocking,mocking,knocking
+ADJ -> green,fast,orange,angry,happy,sad
+
+NAME ->Harry,Mary,Carrie,Larry,Barry,Perry,Terry,Sherry,Gary,Jerry
+PLACE ->library,prairie,ferry,estuary,apothecary,monastery,sanctuary,mortuary
+EMOTION ->loved,hated,despised,adored,admired,respected,enjoyed,liked,disliked
+BERRY ->strawberries,blueberries,blackberries,raspberries,cherries,boysenberries,cranberries 
+
+LINE1 ->Great salamader,A beautiful ghost,the salient goose,twilight moon gazer,shrunken post-it
+UNIT1 ->it jumps,it dives,it meets,it tours,it mops,it breaks,it hops,it lures
+UNIT2 ->into,onto,behind
+UNIT3 ->sunken ship,tailored park,gruesome place,pinkish pool,half-filled moon,bluer sky,purple rain
+LINE3 ->ginger sky and clouds,fresh autumn sunset,blues last evermore,fickle streams of gold,and party next door
+<END SLOTS>

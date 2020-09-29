@@ -1,0 +1,36 @@
+<BEGIN TEMPLATES>
+
+PROBABILISTIC -><LIKELY> is five times more likely than <UNLIKELY> to appear after this colon: <PROBABILISTIC>.
+
+OPTIONAL ->The adjective is optional: everything is <ADJ>!
+
+OPTIONAL2 ->The adjective is optional: everything is <ADJ2>!
+
+LOWERCASE ->lowercases are <ADJ3> when you don't have to <VERB>. 
+
+CONJUGATION ->I saw <ARTICLE> <ANIMAL> riding atop <ARTICLE> <ANIMAL>.
+
+NEWLINE -> I saw <ARTICLE> <ANIMAL> riding atop <ARTICLE> <ANIMAL>.\nAnd I also saw <ADJ2> <NOUN> free floating on an ice cube. 
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+LIKELY -> laziness
+UNLIKELY -> laundry
+PROBABILISTIC -> laziness,laziness,laziness,laziness,laziness,laundry
+
+ADJ -> fine, 
+
+ADJ2 -> fine,beautiful,crazy,busy,lovely,refreshing,haunted,great,green,purple, , , , , , , , , , 
+
+ADJ3 -> $adjectives.txt
+VERB -> capitalize,read,write
+
+ARTICLE -> a,an
+ANIMAL -> $animals.txt
+
+NOUN -> $nouns.txt
+
+<END SLOTS>

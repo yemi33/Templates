@@ -1,0 +1,42 @@
+<BEGIN TEMPLATES>
+
+ALPHABETICAL -> <DET1> <NOUN1> <VERB> <PREP> <DET2> <ADJ> <NOUN2>.
+
+LONGER -> <DET3> <NOUN3> <ADV> <VERB2> <ADJ2> <NOUN4>, enthusiastic <NOUN5>.
+
+PALINDROME -> <INTERJECTION>! <ANIMALS>s <FEEL> <ANIMALS>s <QUALIFIER> 
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+DET1 -> Any,Amy's,Anna's,Andy's,Brin's,Bibi's,Barbie's,Clover's,Clara's,Clyde's
+NOUN1 -> doom,door,drape,doll,ear,elbow,eel,eternity,flower,floor,food,feeling
+VERB -> goes,glues,grips,gawks,gestures,hides,holds,hails,hallucinates,hangs,hardens,harmonizes,hibernates
+PREP -> in,in place of,in spite of,in front of,inside,into,off,on,on top of,out
+DET2 -> the,this,that,Sally's,Sam's,Parker's,Persephone's,Ursula's,viking's,Victoria's
+ADJ -> ubiquitous,ultimate,ultra,unctuous,unique,united,urban,valiant,vaporous,vast,venomous,victorious,vigorous
+NOUN2 -> wrack,wrath,wreath,xylophone,x-ray,xanthium,yacht,yarn,yard,youth,yolk,zeal,zenith,zephyr,zest
+
+
+DET3 -> The,One,My,Your,His,Her,Few,That,Our,Its
+
+NOUN3 -> people,history,world,family,health,music,person,power,story,night,moment
+
+ADV -> daintily,dreamily,fiercely,greedily,jaggedly,equally,exactly,frankly,joyfully
+
+VERB2 -> remembers,disagrees,surprises,overtakes,completes,considers,practices,postpones,sanctions,tolerates,threatens
+
+ADJ2 -> calamitous,defamatory,fastidious,incendiary,mendacious,munificent,pernicious,propitious,ruminative,ubiquitous
+
+NOUN4 -> information,temperature,development,environment,advertising,competition,opportunity,performance,relationship,association
+
+NOUN5 -> responsibility,administration,recommendation,construction,transportation,presentation,refrigerator,measurement,significance,conversation
+
+INTERJECTION -> aah,ack,agreed,ah,aha,ahem,alas,cheerio,cheers,duh
+ANIMALS ->tiger,lion,goose,duck,cat,dog,zebra,hippo,giraffe,monkey
+QUALIFIER -> so,plenty,enough,truly,early,fast,slow,late,quick,more
+FEEL -> love,hate,despise,adore,admire,respect,idolize,enjoy,like,dislike
+
+<END SLOTS>

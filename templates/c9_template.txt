@@ -1,0 +1,22 @@
+<BEGIN TEMPLATES>
+
+STRACHEY -><ADJ> <START>,\n You are my <ADJ> <NOUN>. My <NOUN> <ADV> <VERB> your <NOUN>.\n You are my <ADJ> <NOUN>: my <ADJ> <NOUN>.
+
+ENDING ->Yours <ADV>,\nM.U.C.
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+ADJ ->anxious,wistful,curious,craving,covetous,avid,unsatisfied,eager,keen,burning,fervent,ardent,breathless,impatient,loving,lovesick,affectionate,tender,sweet,sympathetic,fond,amorous,erotic,passionate,devote,dear,precious,darling,little,lovable,adorable
+
+NOUN ->desire,wish,fancy,liking,love,fondness,longing,yearning,ambition,eagerness,ardour,appetite,hunger,thirst,lust,passion,affection,sympathy,fellow feeling,tenderness,heart,devotion,fervour,enthusiasm,rapture,enchantment,infatuation,adoration,charm
+
+ADV ->anxiously,wistfully,curiously,covetously,eagerly,avidly,keenly,burningly,fervently,ardently,breathlessly,impatiently,lovingly,affectionately,tenderly,fondly,passionately,devotedly,seductively,winningly,beautifully
+
+VERB ->desires,wishes,longs for,hopes for,likes,clings to,wants,hungers for,thirsts for,yearns for,lusts after,sighs for,pines for,pants for,woos,attracts,tempts,loves,cares for,is wedded to,holds dear,prizes,treausres,cherishes,adores
+
+START ->dear,darling,honey,jewel,love,duck,moppet,sweetheart
+
+<END SLOTS>

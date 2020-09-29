@@ -1,0 +1,29 @@
+<BEGIN TEMPLATES>
+
+POEM -> What is <DET> <NOUN> doing in my <NOUN2>? <PHRASE> it is troubling how <ANIMAL>s can <VERB> this <NOUN>.
+
+LUMP1 ->             I
+LUMP2 ->      would do anything
+LUMP3 ->  to eat my favorite <FOOD>
+LUMP4 ->    and not have to think
+LUMP5 ->       about my <ADJ>
+LUMP6 ->          <RANDOM>
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+NOUN -> $appliances.txt
+NOUN2 -> pocket,hoodie,back-pack,handbag
+DET -> a,an 
+ANIMAL -> $animals.txt
+VERB -> eat,cook,drink
+PHRASE -> Sometimes,Often
+FOOD -> $food.txt
+ADJ -> $adjectives.txt
+RANDOM -> $appliances.txt,$monsters.txt
+
+
+
+<END SLOTS>

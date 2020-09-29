@@ -1,0 +1,12 @@
+<BEGIN TEMPLATES>
+
+DADAIST -> <WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD><WORD>
+
+<END TEMPLATES>
+
+
+<BEGIN SLOTS>
+
+WORD -> a, covenant, is, first, and, foremost, an agreement, based on, respect, as, members, of, the, Carleton, community, it, is, our, collective, responsibility, to, ourselves, and, to, others, to, hold, to, these, standards, expectations, and, norms, as, we, navigate, this, academic, year, respect, must be, kept, at, the, forefront, of, our, minds, and, guide, all, of our, behavior, this, document, outlines, some, ways, in, which, respect, is, expected, to, be, demonstrated, but, does, not, encompass, all, the, ways, we, as, Carleton, community, members, can, demonstrate, respect, the three, central, aspects, of, respect, are:, respect, for, self, respect, for, others, and, respect, for spaces, it, is, essential, that, we, hold, ourselves, and, others, accountable, as, well, as, taking, care, of, the, spaces, we, occupy, and, share, I, agree, to, the, Carleton, Community, Covenant, and, will, follow, these, directives, to, do, my, part, to, help, protect, the, health, and, safety, of, the, entire, Carleton,  community, for, the, sake, of, myself, and, others, I, recognize, that, my, actions, and, decisions, affect, the, health, and, well-being, of, us, all, and, that, the, only, way, Carleton, can, maintain, the, residential, learning, experience, at, this, time, is, through, the, shared, commitment, and, cooperation, of, the, entire, community, I, further, understand, that, my, ability, to, live, learn, and, work, at, Carleton, is, conditional, on, my, adherence, to, the, following, policies
+
+<END SLOTS>
