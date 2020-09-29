@@ -427,3 +427,4 @@ class Slot:
             A string representing one way to fill the slot.
         """
         return random.choice(self.values)
+        
