@@ -17,8 +17,8 @@ def demo():
     print(f"Demo by James{multi_line_output}")
     
 
-
-demo()
+#demo()
+print("*Welcome to Yemi's Template World*")
 
 # Uncomment this function to print out all your results, at any time (see grade.py)
 grade()

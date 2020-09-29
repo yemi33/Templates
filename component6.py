@@ -5,7 +5,10 @@ def component6():
     
     for i in range(5):
         output = engine.generate(template_name="DADAIST")
-        print(f"{i} {output} \n\n")
+        output_list = output.split('\\n')
+        for j in range (len(output_list)):
+          print(f"{output_list[j]}")
+        print("\n")
 
 
 def grade():
@@ -13,4 +16,4 @@ def grade():
     print("\n\n-- Component 6 -- ")
     component6()
 
-component6()
+

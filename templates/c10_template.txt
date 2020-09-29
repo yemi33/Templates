@@ -1,6 +1,6 @@
 <BEGIN TEMPLATES>
 
-POEM -> What is <DET> <NOUN> doing in my <NOUN2>? <PHRASE> it is troubling how <ANIMAL>s can <VERB> this <NOUN>.
+POEM ->What is <DET> <NOUN> doing in my <NOUN2>? <PHRASE> it is troubling how <ANIMAL>s can <VERB> this <NOUN>.
 
 LUMP1 ->             I
 LUMP2 ->      would do anything
@@ -16,7 +16,7 @@ LUMP6 ->          <RANDOM>
 
 NOUN -> $appliances.txt
 NOUN2 -> pocket,hoodie,back-pack,handbag
-DET -> a,an 
+DET ->a,an 
 ANIMAL -> $animals.txt
 VERB -> eat,cook,drink
 PHRASE -> Sometimes,Often

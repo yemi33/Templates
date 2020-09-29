@@ -39,4 +39,3 @@ def grade():
     print("\n\n-- Component 7c -- ")
     component7c()
 
-grade()

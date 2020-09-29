@@ -1,12 +1,12 @@
 <BEGIN TEMPLATES>
 
-NO_CORPUS -> <DET> <ADJ> <NOUN> <VERB> <DET> <NOUN>.
+NO_CORPUS -><DET> <ADJ> <NOUN> <VERB>s <DET> <NOUN>.
 
-YES_CORPUS -> <DET> <ADJ> <MONSTERS> <VERB> <NOUN_CORPUS>.
+YES_CORPUS -><DET> <ADJ> <MONSTERS> <VERB> <NOUN_CORPUS>.
 
-MY_CORPUS -> <ADJ> <LOVE_LANG> in <BIBLE> <VERB> and wanders through <ADJ> <CARLETON_BUILDING> (makes use of: [bible_books.txt], [love_languages.txt], [carleton_buildings.txt]. 
+MY_CORPUS -><ADJ> <LOVE_LANG> in <BIBLE> <VERB> and wanders through <ADJ> <CARLETON_BUILDING> (makes use of: [bible_books.txt], [love_languages.txt], [carleton_buildings.txt]. 
 
-HOPEFULLY_POETIC -> Not every <LOVE_LANG> <VERB> <NOUN>.
+HOPEFULLY_POETIC ->Not every <LOVE_LANG> <VERB>s <NOUN>.
 
 <END TEMPLATES>
 

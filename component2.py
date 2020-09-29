@@ -8,7 +8,7 @@ def component2a():
 
 
 def component2b():
-    engine = TemplateEngine(file_path="templates/c2_template.txt", random_seed = 3)
+    engine = TemplateEngine(file_path="templates/c2_template.txt")
 
     for i in range(10):
         output = engine.generate(template_name="PROBABILISTIC")
@@ -16,7 +16,7 @@ def component2b():
 
 
 def component2c():
-    engine = TemplateEngine(file_path="templates/c2_template.txt", random_seed = 3)
+    engine = TemplateEngine(file_path="templates/c2_template.txt")
 
     for i in range(10):
         output = engine.generate(template_name="OPTIONAL")
@@ -24,7 +24,7 @@ def component2c():
 
 
 def component2d():
-    engine = TemplateEngine(file_path="templates/c2_template.txt", random_seed = 3)
+    engine = TemplateEngine(file_path="templates/c2_template.txt")
 
     for i in range(10):
         output = engine.generate(template_name="OPTIONAL2")
@@ -81,6 +81,7 @@ def component2g():
         output_list = output.split('\\n')
         for j in range (len(output_list)):
           print(f"{output_list[j]}")
+        print(" ")
 
 
 def grade():
@@ -100,9 +101,7 @@ def grade():
     print("\n\n-- Component 2g -- ")
     component2g()
 
-output = "My name is Yemi\nMy name is Yemi"
-print(output.split("\n"))
 
-component2g()
+
 
 

@@ -5,7 +5,7 @@ def component4():
     
     for i in range(5):
         output = engine.generate(template_name="SHANNON_ZERO")
-        print(f"{i} {output}")
+        print(f"{i} {output} \n")
 
 
 def grade():
@@ -13,4 +13,4 @@ def grade():
     print("\n\n-- Component 4 -- ")
     component4()
 
-component4()
+

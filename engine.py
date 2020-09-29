@@ -391,6 +391,7 @@ class Template:
                 output += element.fill()
             else:  # It's a static element, so append it as is
                 output += element
+
         return output
 
 
@@ -415,6 +416,7 @@ class Slot:
         """
         self.name = name
         self.values = values
+        self.collection = [] #I added a 'trash can' instance variable to the Slot class to facilitate the new functionality of single-use fill. 
 
     def fill(self):
         """Fill this slot.
@@ -426,5 +428,48 @@ class Slot:
         Returns:
             A string representing one way to fill the slot.
         """
-        return random.choice(self.values)
+
+        #Basic structure is: While self.values has items in it, make a random choice. If the choice happens to be a single-use one (denoted by "\s"), then remove the choice from self.values, collect the choice in self.collection (which is just a 'trash can' of used slot values). Then you return the choice. If the choice is not a single-use one, just return the choice. The self.refill() step is basically, once you run out of slot values in self.values due to the removal of single-use ones, you 'refill' self.values with the original list of slot values. The mechanism of this 'refill' function is detailed below.  
         
+        #Creating a list of single-use slot values
+        single_use_slot_values = []
+        for i in range(len(self.values)):
+          if self.values[i].endswith('\s'):
+            single_use_slot_values.append(self.values[i])
+
+        #This counter is essentially keeping track of how many single-use slot values are currently left. Every time a single-use slot value is selected, the counter is decremented. When this counter becomes 0, meaning there are no more single-use slot values left, then you refill self.value. 
+        
+        counter = len(single_use_slot_values) -1
+        choice = random.choice(self.values)
+        
+        while counter > 0:
+          if choice.endswith('\s'):
+            counter = counter -1
+            self.values.remove(choice)
+            self._collect(choice)
+            #print(self.values)
+            #print(self.collection)
+            return choice[:len(choice)-2]
+          return choice
+        
+        self.refill()
+        #print(f"refilled self.values -> {self.values}")
+        #print(f"emptied self.collection -> {self.collection}")
+
+        return choice
+    
+    #This private method "collects" the used single-use slot values so they are not completely removed from the Slot object. 
+    def _collect (self,item):
+      self.collection.append(item)
+    
+    #This method "refills" the original self.values list by populating it with what was collected in self.collection. And it empties out self.collection for future use. 
+    def refill(self):
+      self.values.extend(self.collection)
+      self.collection = []
+    
+    
+
+
+
+
+

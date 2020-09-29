@@ -10,7 +10,7 @@ LOWERCASE ->lowercases are <ADJ3> when you don't have to <VERB>.
 
 CONJUGATION ->I saw <ARTICLE> <ANIMAL> riding atop <ARTICLE> <ANIMAL>.
 
-NEWLINE -> I saw <ARTICLE> <ANIMAL> riding atop <ARTICLE> <ANIMAL>.\nAnd I also saw <ADJ2> <NOUN> free floating on an ice cube. 
+NEWLINE ->I saw <ARTICLE> <ANIMAL> riding atop <ARTICLE> <ANIMAL>.\nAnd I also saw <ADJ3> <NOUN> free floating on an ice cube. 
 
 <END TEMPLATES>
 
@@ -21,15 +21,15 @@ LIKELY -> laziness
 UNLIKELY -> laundry
 PROBABILISTIC -> laziness,laziness,laziness,laziness,laziness,laundry
 
-ADJ -> fine, 
+ADJ -> fine,beautiful,crazy,busy,lovely,refreshing,haunted,great,green,purple, , , , , 
 
-ADJ2 -> fine,beautiful,crazy,busy,lovely,refreshing,haunted,great,green,purple, , , , , , , , , , 
+ADJ2 -> fine,beautiful,crazy,busy,lovely,refreshing,haunted,great,green,purple, , , , , , , , , ,  
 
 ADJ3 -> $adjectives.txt
 VERB -> capitalize,read,write
 
 ARTICLE -> a,an
-ANIMAL -> $animals.txt
+ANIMAL -> dog,cat,lion,tiger,lynx,giraffe,hippo,crane,hedgehog,rabbit,ox,antelope,ant
 
 NOUN -> $nouns.txt
 

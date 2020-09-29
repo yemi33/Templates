@@ -19,21 +19,21 @@ def component1c():
     
     for i in range(5):
         output = engine.generate(template_name="MY_CORPUS")
-        print(f"{i} {output}")
+        print(f"{i} {output} \n")
 
 
 def component1d():
     engine = TemplateEngine(file_path="templates/c1_template.txt")
   
     multi_line_output = ""
+
     output1 = engine.generate(template_name="NO_CORPUS")
     output2 = engine.generate(template_name="YES_CORPUS")
     output3 = engine.generate(template_name="MY_CORPUS")
     output4 = engine.generate(template_name="HOPEFULLY_POETIC")
-    multi_line_output += output1 + output2 + output3 + output4
-    print(f"{multi_line_output}")
     
-
+    multi_line_output += output1 + " " + output2 + " " + output3 + " " +output4
+    print(f"{multi_line_output}")
 
 def grade():
     """The function James will be using to grade your component."""
